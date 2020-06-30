@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+/sonarlint
+/modules.xml
+/usage.statistics.xml
+/tasks.xml
+/blog_timbenke_de.iml

@@ -1,6 +1,20 @@
 ---
+pagination:
+data: collections.post
+size: 5
+reverse: true
 layout: layouts/base.njk
 section: home
+permalink: "{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
 ---
 
 {{ layoutContent | safe }}
+
+{% set postslist = pagination.items %}
+{% include "components/postslist.njk" %}
+
+<nav aria-labelledby="pagination">
+  <span>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">← Newer Articles</a>{% endif %}</span>
+  <span class="next-page">{% if pagination.href.next %}<a href="{{ pagination.href.next }}">
+        Older Articles →</a>{% endif %}</span>
+</nav>

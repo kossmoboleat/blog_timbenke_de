@@ -1,35 +1,88 @@
 :root {
-	--primary: blue;
-	--secondary: white;
-	--background: #FFF0EB;
+	--primary: #2b4354;
+	--secondary: #dde7ee;
+	--background: #f6fafd;
+	--body: #2b4354;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--primary: #dde7ee;
+		--secondary: #2b4354;
+		--background: #2b4354;
+		--body: #f6fafd;
+	}
 }
 
 *, *:before, *:after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html,
 body {
+	color: var(--body);
 	padding: 0;
 	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	font-family: "Source Serif Pro", serif;
+	font-size: 21px;
+}
+
+header, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+header {
+	font-size: 24px;
+	font-style: italic;
 }
 
 body {
-	display: grid;
-	height: 100vh;
-	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
 }
 
+header {
+	/*	!*margin: 0 auto;*!*/
+	/*	max-width: 48em;*/
+	/*	margin-left: 40px;*/
+}
+
+/* Header Logo (style as h2) */
+header > em {
+	/*display: block;*/
+	/*font-size: 72px;*/
+	/*line-height: 2;*/
+	/*margin: .67em 0;*/
+	font-weight: 900;
+	/*font-style: italic;*/
+}
+
 main {
-	max-width: 37.5em;
+	/*margin: 0 auto;*/
+	margin-left: 50px;
+}
+
+main * {
+	max-width: 38em;
 }
 
 p,
 pre,
 code {
-	line-height: 1.5;
+	line-height: 1.72;
 }
 
 a[href],
@@ -73,15 +126,6 @@ pre {
 	margin: .5em 0;
 }
 
-/* Header Logo (style as h2) */
-header > em {
-	display: block;
-	font-size: 2em;
-	margin: .67em 0;
-	font-weight: bold;
-	font-style: normal;
-}
-
 /* Header Nav */
 header nav ul {
 	padding: 0;
@@ -114,8 +158,8 @@ header nav li a[data-current="current item"] {
 article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--secondary);
+	/*border-bottom: 1px solid #eee;*/
+	/*border-bottom: 1px solid var(--secondary);*/
 }
 
 main > section > article > * {
@@ -159,17 +203,21 @@ form {
 }
 
 form label {
-  display: none;
+	display: none;
 }
 
 input,
 textarea,
 button {
-  width: 100%;
-  padding: 1em;
-  margin-bottom: 1em;
-	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+	width: 100%;
+	padding: 1em;
+	margin-bottom: 1em;
+	/*font-size: 1rem;*/
+	/*font-family: "Avenir", "Avenir Next", sans-serif;*/
+}
+
+.next-page {
+	float: right;
 }
 
 input,
@@ -184,8 +232,8 @@ button {
 	cursor: pointer;
 }
 
-@media screen and (min-width:768px) {
-	:root {
-		font-size: 1.1rem;
-	}
-}
+/*@media screen and (min-width:768px) {*/
+/*	:root {*/
+/*		font-size: 1.1rem;*/
+/*	}*/
+/*}*/

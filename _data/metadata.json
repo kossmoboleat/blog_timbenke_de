@@ -1,9 +1,9 @@
 {
-  "title": "Eleventy Netlify Boilerplate",
-  "url": "https://eleventy-netlify-boilerplate.netlify.com",
+  "title": "timbenke",
+  "url": "https://blog.timbenke.de",
   "author": {
-    "name": "Dan Urbanowicz",
-    "email": "dan.urbanowicz@gmail.com",
-    "github": "https://github.com/danurbanowicz"
+    "name": "Tim Benke",
+    "email": "timbenke@gmail.com",
+    "github": "https://github.com/kossmoboleat"
   }
 }
