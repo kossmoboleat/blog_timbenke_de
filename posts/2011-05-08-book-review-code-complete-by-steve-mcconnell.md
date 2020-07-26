@@ -2,6 +2,7 @@
 title: 'Book Review: "Code Complete" by Steve McConnell'
 date: 2011-05-08
 ---
+
 At the university you learn a lot of stuff about computers but nothing about programming. That old saying is very true and stems from the fact that you don’t really have to know the absolute details if you got the concept all right. When you evaluate an approach, what counts are the relative numbers and not the absolute. Therefore if you fall of the academic wagon, or more appropriately for me, decide to hop off, you have some catching up to do.
 
 The usual way to catch up to your more practical colleagues is the simple method of learning by doing. Because I’m the bookish type I’ve started to look at some of the classic „programming craft“ books that you find as recommendations in the intertubes (link to stackoverflow question). One of the books almost everybody can agree on is <a href="http://www.amazon.co.uk/gp/product/0735619670/ref=as_li_ss_tl?ie=UTF8&tag=timben-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0735619670">"Code Complete" by Steve McConnell</a>.

@@ -1,6 +1,7 @@
 ---
 title: Decisions, Decisions, Decisions
-date: 2019-12-01
+date: 9999-01-01
+draft: true
 ---
 ## Examples for decisions in my recent projects
 

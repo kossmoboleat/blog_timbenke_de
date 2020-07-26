@@ -5,10 +5,10 @@ section: post
 
 <article>
   <h3>{{ title }}</h3>
-  <p>
-    <small>
-      <time datetime="{{ date | machineDate }}">{{ date | machineDate }}</time>
-    </small>
+  <p class="post-date">
+    <time datetime="{{ date | machineDate }}">
+      <small>{{ date | readableDate }}</small>
+    </time>
   </p>
 
   {{ layoutContent | safe }}

@@ -6,9 +6,20 @@
 <body>
 
 <header>
-  <a href="{{ '/' | url }}">
-    <em>t</em>im<em>b</em>enk<em>e</em>
-  </a>
+  <span>
+    <a href="{{ '/' | url }}">
+      <strong>t</strong>im<strong>b</strong>enk<strong>e</strong>
+    </a>
+  </span>
+
+  {% set navPages = collections.all | eleventyNavigation %}
+  <nav>
+    {%- for entry in navPages %}
+      <span{% if entry.url == page.url %} class="active-nav-item"{% endif %}>
+          <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+        </span>
+    {%- endfor %}
+  </nav>
 </header>
 
 <main>

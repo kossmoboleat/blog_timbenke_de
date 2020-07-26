@@ -1,7 +1,7 @@
 ---
 title: Developer Anarchy 
 date: 2017-09-03
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dignissim molestie dolor, id aliquam massa semper vitae. Phasellus sit amet volutpat velit. Phasellus euismod ipsum quis lacus facilisis, eu viverra purus lacinia. Duis ornare arcu arcu, sed imperdiet nibh dignissim id. Nullam tincidunt ullamcorper laoreet. Sed rhoncus posuere risus. In tristique dictum tristique. Cras justo tortor, vestibulum quis pharetra vel, laoreet ac libero.
+summary: Nearly all IT companies claim to develop software in an "Agile" way. "Some" practices from the original roots of the movement have become standard. Seems to me, many are relatively comfortable with the status quo because it mostly works. I venture many teams find their own sweet spot in all this mess, but there's no overarching big idea like XP, Agile, Scrum or Kanban in the making. Developer (or Programmer) Anarchy is the one exception that proves the rule with a radical new approach more extreme than XP...
 ---
 ## What is "Developer Anarchy"
 

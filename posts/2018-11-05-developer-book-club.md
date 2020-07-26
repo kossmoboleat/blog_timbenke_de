@@ -1,9 +1,9 @@
 ---
 title: Developer Book-Club
 date: 2018-11-05
-summary: Maecenas faucibus mollis leo, ut pulvinar est interdum sed. Nullam sagittis nunc suscipit, luctus ligula a, iaculis mi. Sed nec erat erat. Nulla dictum purus id maximus maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In blandit vestibulum ipsum vel convallis. Morbi tristique luctus sapien quis faucibus. Nunc scelerisque in erat in placerat. Morbi vitae lorem a ex lacinia vehicula. 
+summary: One of my favorite things about development is constant learning.  Usually, your whole task consists of figuring out how to get something to work. Afterward, it would be easy to write down the exact same thing once again. Often it's enough to just mill on the problem or consult StackOverflow a couple of times. But to really get into a new subject you have to go deeper. For this I still really like books. Fortunately, I've found a few colleagues that follow the same out-of-time idea. We are conducting a book club regularly where we discuss mostly technical books among ourselves. Reading for a group like this is very different from reading for yourself...
 ---
-We've recently started a book-club at my current employer [Comline](https://comline-se.de). First of we talked about a book, that I've already reviewed here on the blog: ["Pragmatic Unit Testing in Java 8 with JUnit"](/put-unit-testing-for-pragmatics).
+We've recently started a book-club at my current employer [COMLINE](https://comline-se.de). First of we talked about a book, that I've already reviewed here on the blog: ["Pragmatic Unit Testing in Java 8 with JUnit"](/put-unit-testing-for-pragmatics).
 
 In addition to simply refreshing my memory of the book something more interesting happened. Turns out that by not only reading the book but also considering how you'll discuss the book later, makes you read much more attentively and helps you remember better too. Usually when I read a novel late at night, I would sometimes be hard-pressed to remember even the previous chapter. But with a book-club you should at least remember until the next discussion.
 

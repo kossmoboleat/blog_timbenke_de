@@ -1,6 +1,7 @@
 ---
 title: Minimalism
-date: 2019-07-01
+date: 9999-01-01
+draft: true
 ---
 monk vs. media addict
 
@@ -15,7 +16,6 @@ Often I choose option one and get the reward from my brain, because I've *found*
 The strategies for dealing with *cognitive load* have a lot in common with dealing with *physical load*. To reduce the strain you can train yourself with more muscles which resembles the second option to build your will power. Obviously you could also just have *fewer stuff*. From plain old *minimalism* this has evolved to *Marie Kondo's cult of tyding up* and it's extreme in *tiny houses*.
 
 There's just one difference between physical and cognitive load: many of our cognitive and digital inputs just *get lost*. Sometimes that's a good thing, but often it's something we cannot recover. This is where note-taking and techniques like GTD come in for me.
-
 
 
 multi-tasking

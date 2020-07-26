@@ -1,10 +1,8 @@
 ---
 title: Bluetooth Device Toggle via Menubar
 date: 2020-05-03
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dignissim molestie dolor, id aliquam massa semper vitae. Phasellus sit amet volutpat velit. Phasellus euismod ipsum quis lacus facilisis, eu viverra purus lacinia. Duis ornare arcu arcu, sed imperdiet nibh dignissim id. Nullam tincidunt ullamcorper laoreet. Sed rhoncus posuere risus. In tristique dictum tristique. Cras justo tortor, vestibulum quis pharetra vel, laoreet ac libero.  
+summary: Corona has made me realize the current confinement is going to take a while, so why not spend a bit of time and money optimizing my new work setup. Even though I cannot move *out* at least I can move *around* with my new fancy Bluetooth headphones. Still, it took me a bit of time to cobble together some scripts that help make them work the way I like them. To connect my devices I figured out specific quick solutions to connect/disconnect the headphones which reduces some of the headaches...     
 ---
-
-// How to set up simple one-click apps on macOs and Android to toggle a device's bluetooth connection.
 
 Home-office work offers its own set of new challenges for everyone. One of the common problems is noise, be it from neighbors or your own family. After trying out the passable "Sennheiser Free Wireless" in-ear monitors with passive noise cancellation, I have changed to regular over-ear headphones and could not be happier. I have settled on the "Bose Noise Cancelling Headphones 700", which are excellent although pricey. In the end, I have decided that I would use them daily for my remote work, and it's worth it even if I pay myself.
 

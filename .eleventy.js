@@ -1,11 +1,14 @@
 const {DateTime} = require("luxon");
 const CleanCSS = require("clean-css");
-const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const slugify = require("slugify");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
+  // navigation
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
   // RSS feed
   eleventyConfig.addPlugin(pluginRss);
 
@@ -15,7 +18,7 @@ module.exports = function (eleventyConfig) {
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
+    return DateTime.fromJSDate(dateObj).toFormat("d LLL, yyyy");
   });
 
   // Date formatting (machine readable)
@@ -28,19 +31,9 @@ module.exports = function (eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-  // Minify JS
-  eleventyConfig.addFilter("jsmin", function (code) {
-    let minified = UglifyJS.minify(code);
-    if (minified.error) {
-      console.log("UglifyJS error: ", minified.error);
-      return code;
-    }
-    return minified.code;
-  });
-
   // Minify HTML output
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-    if (outputPath.indexOf(".html") > -1) {
+    if (outputPath !== false && outputPath.indexOf(".html") > -1) {
       return htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
@@ -61,8 +54,6 @@ module.exports = function (eleventyConfig) {
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("favicon.ico");
-  eleventyConfig.addPassthroughCopy("static/img");
-  eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
   eleventyConfig.addPassthroughCopy("images/");
 
@@ -81,6 +72,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownIt(options)
       .use(markdownItAnchor, opts)
   );
+
+  eleventyConfig.addCollection("livePosts", function (collectionApi) {
+    return collectionApi.getFilteredByTag("post")
+    .filter(p => !p.data.draft);
+  });
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
