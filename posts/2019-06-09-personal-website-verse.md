@@ -1,7 +1,7 @@
 ---
 title: The Personal-Website-Verse
 date: 2019-06-09
-summary: Since the inception of the web as a non-commercial decentralized oasis of tiny custom sites, we've moved to a much more stream-lined, clean and ultimately commercial web. As with any trend there's also some resistance. In this case it's creatives that create small curated sites to keep the original idea of the web alive. Lately I've delved a bit into this world...   
+summary: Since the inception of the web as a non-commercial decentralized oasis of tiny custom sites, we've moved to a much more stream-lined, clean and ultimately commercial web. As with any trend there's also some resistance. In this case it's creatives that create small curated sites to keep the original idea of the web alive. Lately I've delved a bit into this world.   
 ---
 I've stopped reading *social media* a while ago and switched to a couple of news outlets and hand-picked blogs. That just happened when I noticed that most of what is presented to me, does not interest me and seems to simply suck me into **wasting time**.
 

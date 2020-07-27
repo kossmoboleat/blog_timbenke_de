@@ -1,7 +1,7 @@
 ---
 title: Developer Book-Club
 date: 2018-11-05
-summary: One of my favorite things about development is constant learning.  Usually, your whole task consists of figuring out how to get something to work. Afterward, it would be easy to write down the exact same thing once again. Often it's enough to just mill on the problem or consult StackOverflow a couple of times. But to really get into a new subject you have to go deeper. For this I still really like books. Fortunately, I've found a few colleagues that follow the same out-of-time idea. We are conducting a book club regularly where we discuss mostly technical books among ourselves. Reading for a group like this is very different from reading for yourself...
+summary: One of my favorite things about development is constant learning.  Usually, your whole task consists of figuring out how to get something to work. Afterward, it would be easy to write down the exact same thing once again. Often it's enough to just mill on the problem or consult StackOverflow a couple of times. But to really get into a new subject you have to go deeper. For this I still really like books. Fortunately, I've found a few colleagues that follow the same out-of-time idea. We are conducting a book club regularly where we discuss mostly technical books among ourselves. Reading for a group like this is very different from reading for yourself.
 ---
 We've recently started a book-club at my current employer [COMLINE](https://comline-se.de). First of we talked about a book, that I've already reviewed here on the blog: ["Pragmatic Unit Testing in Java 8 with JUnit"](/put-unit-testing-for-pragmatics).
 

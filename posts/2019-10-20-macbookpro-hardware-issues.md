@@ -1,7 +1,7 @@
 ---
 title: MacBookPro Hardware Issues
 date: 2019-10-20
-summary: There seem to be two different kinds of people in the world, the ones for whom hardware just works, and the ones for who it breaks all the time. Over months my laptop worked alright, but under heavy load it became really slow. Usually one writes of these problems to some particularly badly programmed app, but this is the one case where it's really in the hardware (a welcome relief as a software developer). Diagnosing this problem has become quite difficult with our complicated dynamic processors and intelligent macOs magic that switches the real power of your machine as it sees fit...    
+summary: There seem to be two different kinds of people in the world, the ones for whom hardware just works, and the ones for who it breaks all the time. Over months my laptop worked alright, but under heavy load it became really slow. Usually one writes of these problems to some particularly badly programmed app, but this is the one case where it's really in the hardware (a welcome relief as a software developer). Diagnosing this problem has become quite difficult with our complicated dynamic processors and intelligent macOs magic that switches the real power of your machine as it sees fit.    
 ---
 ## Two Replacements in One Year = New(ish) Laptop
 
