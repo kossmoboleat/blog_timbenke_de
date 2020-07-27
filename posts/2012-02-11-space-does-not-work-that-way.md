@@ -6,4 +6,4 @@ When you watch films like Star Wars or Star Trek you usually just marvel at the 
 
 This <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/SpaceDoesNotWorkThatWay">site </a>has a very big list about common errors in Space movies, like my argument under <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/SpaceIsNoisy">"Space Is Noisy"</a>, <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/LatexSpaceSuit">space suits for women</a> and the overall problem that <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/SciFiWritersHaveNoSenseOfScale">"Science Fiction writers have no sense of scale"</a>.
 
-<img src="http://images.wikia.com/starwars/images/2/2b/Pincer5.jpg" alt="Star Wars battle scene" />
+<img src="https://images.wikia.com/starwars/images/2/2b/Pincer5.jpg" alt="Star Wars battle scene" />
