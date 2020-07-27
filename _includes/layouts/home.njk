@@ -1,8 +1,8 @@
 ---
 pagination:
-data: collections.livePosts
-size: 5
-reverse: true
+  data: collections.livePosts
+  size: 5
+  reverse: true
 layout: layouts/base.njk
 section: home
 permalink: "{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
