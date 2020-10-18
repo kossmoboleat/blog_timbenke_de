@@ -18,9 +18,9 @@ URI stands for uniform resource identifier and it's the super-set of all URLs an
 
 > A **Uniform Resource Name (URN)** can be compared to a person's name, while a **Uniform Resource Locator (URL)** can be compared to their street address. In other words, a URN identifies an item and a URL provides a method for finding it.
 
-A good example for a URL is "http://blog.timbenke.de/root-of-all-problems-on-android/". It contains the protocol "http" that can be used to find the resource. A useful example for a URN is "urn:isbn:0-486-27557-4". With the given information its possible to find the book in any book store. Still it's not as specific as the protocol part in the URL. Wikipedia has another example with a more hierarchical URN path: "urn:example:mammal:monotreme:echidna". 
+A good example for a URL is "http://blog.timforest.com/root-of-all-problems-on-android/". It contains the protocol "http" that can be used to find the resource. A useful example for a URN is "urn:isbn:0-486-27557-4". With the given information its possible to find the book in any book store. Still it's not as specific as the protocol part in the URL. Wikipedia has another example with a more hierarchical URN path: "urn:example:mammal:monotreme:echidna". 
 
-A relative URI or URI reference can be used to specify  a "local id" of a resource relative to the current context. In the case of HTTP this can then also be a relative URL. If I have source code in a file http://blog.timbenke.de/posts/index.html
+A relative URI or URI reference can be used to specify  a "local id" of a resource relative to the current context. In the case of HTTP this can then also be a relative URL. If I have source code in a file http://blog.timforest.com/posts/index.html
 
 ```html
     <img src="../images/foo.png"/>
@@ -28,7 +28,7 @@ A relative URI or URI reference can be used to specify  a "local id" of a resour
 
 Then given the base URL and the relative path "../images/foo.png" you can easily determine a new absolute URL:
 
-http://blog.timbenke.de/images/foo.png. That's why the relative URI is in fact also a relative URL because using the context information you have a "means of acting upon or obtaining the representation" [[wikipedia](https://www.wikiwand.com/en/Uniform_Resource_Identifier)]. 
+http://blog.timforest.com/images/foo.png. That's why the relative URI is in fact also a relative URL because using the context information you have a "means of acting upon or obtaining the representation" [[wikipedia](https://www.wikiwand.com/en/Uniform_Resource_Identifier)]. 
 
 REST services sometimes use relative URLs or URLs without protocol because repeating the complete address would be too verbose. I.e. when obtaining a list of widgets you get 
 

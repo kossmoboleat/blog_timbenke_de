@@ -5,14 +5,14 @@ eleventyNavigation:
 ---
 <h2>Operator and contact</h2>
 <p>
-  Tim Benke<br>
+  Tim Forest<br>
   Glockseestr. 3b<br>
   30169 Hanover<br>
   Germany
 </p>
 <p>
   phone: +49 (0)157 7921 3141<br>
-  email: timbenke@gmail.com
+  email: mail@timforest.com
 </p>
 
 <h2>Data Privacy</h2>
