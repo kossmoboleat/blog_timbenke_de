@@ -1,5 +1,5 @@
 ---
-title: Script: Assign a Random Wallpaper to each Screen
+title: Script to Assign a Random Wallpaper to each Screen
 date: 2020-12-12
 summary: There are many nice wallpapers around, but I often find them to be too impersonal and sterile. Unsplash for example has technically great images which don't inspire me. Over time, I've started collecting my favorite images of mostly public domain paintings and a few drawings. To vary the images from time to time I've created this script that chooses them randomly and assigns different ones to all my displays.      
 ---
